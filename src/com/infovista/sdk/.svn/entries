@@ -1,0 +1,74 @@
+10
+
+dir
+66
+http://snowmass/svn/tools/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk
+http://snowmass/svn/tools
+
+
+
+2015-10-01T11:00:48.561101Z
+65
+sumit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f7e2191-2049-a044-970e-f7e56b7e6b40
+
+build.xml
+file
+
+
+
+
+2015-10-01T11:15:51.551000Z
+c6baecb88322da7f869cff8d174ca192
+2015-07-29T11:36:50.447510Z
+7
+sumit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7597
+
+error
+dir
+
+rampart
+dir
+
+ssl
+dir
+
+stub
+dir
+

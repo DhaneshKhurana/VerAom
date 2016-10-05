@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes
+END
+PropertyLists.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/PropertyLists.java
+END
+IPStringComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/IPStringComparator.java
+END
+IPComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tools/!svn/ver/69/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/IPComparator.java
+END
+TimeStampCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/TimeStampCache.java
+END
+TimeSlot.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/TimeSlot.java
+END
+StatsTimeResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/StatsTimeResult.java
+END
+StatStubFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/tools/!svn/ver/67/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/StatStubFactory.java
+END
+CommonParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/common/classes/CommonParams.java
+END

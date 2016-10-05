@@ -1,0 +1,1117 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns2="http://io.java/xsd" xmlns:ns1="http://rmi.java/xsd" xmlns:ns3="http://config.ws.waas.cisco.com" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns0="http://config.ws.waas.cisco.com/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://config.ws.waas.cisco.com">
+	<wsdl:documentation>DeviceConf</wsdl:documentation>
+	<wsdl:types>
+		<xs:schema xmlns:ax23="http://config.ws.waas.cisco.com/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://config.ws.waas.cisco.com/xsd">
+			<xs:complexType name="Device">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="hostName" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="id" type="xs:long"/>
+					<xs:element minOccurs="0" name="ipAddress" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="location" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="macAddress" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="model" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="role" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="softwareVersion" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="status" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="type" nillable="true" type="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="DeviceGroup">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="description" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="groupType" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="id" type="xs:long"/>
+					<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="Location">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="description" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="id" type="xs:long"/>
+					<xs:element minOccurs="0" name="level" type="xs:int"/>
+					<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					<xs:element minOccurs="0" name="parentId" type="xs:long"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:schema>
+		<xs:schema xmlns:ax21="http://rmi.java/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://rmi.java/xsd">
+			<xs:complexType name="RemoteException">
+				<xs:complexContent>
+					<xs:extension base="ns2:IOException">
+						<xs:sequence>
+							<xs:element minOccurs="0" name="cause" nillable="true" type="xs:anyType"/>
+							<xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+							<xs:element minOccurs="0" name="detail" nillable="true" type="xs:anyType"/>
+						</xs:sequence>
+					</xs:extension>
+				</xs:complexContent>
+			</xs:complexType>
+		</xs:schema>
+		<xs:schema xmlns:ax22="http://io.java/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java/xsd">
+			<xs:complexType name="IOException">
+				<xs:complexContent>
+					<xs:extension base="ns3:Exception">
+						<xs:sequence/>
+					</xs:extension>
+				</xs:complexContent>
+			</xs:complexType>
+		</xs:schema>
+		<xs:schema xmlns:ns="http://config.ws.waas.cisco.com" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://config.ws.waas.cisco.com">
+			<xs:complexType name="Exception">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="Exception" nillable="true" type="xs:anyType"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="RemoteException">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="RemoteException" nillable="true" type="ns1:RemoteException"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getCM">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="id" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getCMResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getCMByName">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getCMByNameResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevice">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="id" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDeviceResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDeviceByName">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDeviceByNameResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAE">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="id" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEByName">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEByNameResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDeviceGroupsResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:DeviceGroup"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevices">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="ids" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesInGroup">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="deviceGroupId" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesInGroupResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesInGroupByName">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesInGroupByNameResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEs">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="ids" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsInGroup">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="deviceGroupId" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsInGroupResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsInGroupByName">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsInGroupByNameResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWANInfoResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Device"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getLocationsResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ns0:Location"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getAPIVersionResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesPerLocation">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="locationId" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getDevicesPerLocationResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsPerLocation">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="locationId" type="xs:long"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="getWAEsPerLocationResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="getDeviceRequest">
+		<wsdl:part name="parameters" element="ns3:getDevice"/>
+	</wsdl:message>
+	<wsdl:message name="getDeviceResponse">
+		<wsdl:part name="parameters" element="ns3:getDeviceResponse"/>
+	</wsdl:message>
+	<wsdl:message name="RemoteException">
+		<wsdl:part name="parameters" element="ns3:RemoteException"/>
+	</wsdl:message>
+	<wsdl:message name="getDeviceByNameRequest">
+		<wsdl:part name="parameters" element="ns3:getDeviceByName"/>
+	</wsdl:message>
+	<wsdl:message name="getDeviceByNameResponse">
+		<wsdl:part name="parameters" element="ns3:getDeviceByNameResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWANInfoRequest"/>
+	<wsdl:message name="getWANInfoResponse">
+		<wsdl:part name="parameters" element="ns3:getWANInfoResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getDeviceGroupsRequest"/>
+	<wsdl:message name="getDeviceGroupsResponse">
+		<wsdl:part name="parameters" element="ns3:getDeviceGroupsResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getCMByNameRequest">
+		<wsdl:part name="parameters" element="ns3:getCMByName"/>
+	</wsdl:message>
+	<wsdl:message name="getCMByNameResponse">
+		<wsdl:part name="parameters" element="ns3:getCMByNameResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesInGroupByNameRequest">
+		<wsdl:part name="parameters" element="ns3:getDevicesInGroupByName"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesInGroupByNameResponse">
+		<wsdl:part name="parameters" element="ns3:getDevicesInGroupByNameResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesPerLocationRequest">
+		<wsdl:part name="parameters" element="ns3:getDevicesPerLocation"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesPerLocationResponse">
+		<wsdl:part name="parameters" element="ns3:getDevicesPerLocationResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEByNameRequest">
+		<wsdl:part name="parameters" element="ns3:getWAEByName"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEByNameResponse">
+		<wsdl:part name="parameters" element="ns3:getWAEByNameResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsRequest">
+		<wsdl:part name="parameters" element="ns3:getWAEs"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsResponse">
+		<wsdl:part name="parameters" element="ns3:getWAEsResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getLocationsRequest"/>
+	<wsdl:message name="getLocationsResponse">
+		<wsdl:part name="parameters" element="ns3:getLocationsResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWAERequest">
+		<wsdl:part name="parameters" element="ns3:getWAE"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEResponse">
+		<wsdl:part name="parameters" element="ns3:getWAEResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesInGroupRequest">
+		<wsdl:part name="parameters" element="ns3:getDevicesInGroup"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesInGroupResponse">
+		<wsdl:part name="parameters" element="ns3:getDevicesInGroupResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsInGroupByNameRequest">
+		<wsdl:part name="parameters" element="ns3:getWAEsInGroupByName"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsInGroupByNameResponse">
+		<wsdl:part name="parameters" element="ns3:getWAEsInGroupByNameResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getCMRequest">
+		<wsdl:part name="parameters" element="ns3:getCM"/>
+	</wsdl:message>
+	<wsdl:message name="getCMResponse">
+		<wsdl:part name="parameters" element="ns3:getCMResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsPerLocationRequest">
+		<wsdl:part name="parameters" element="ns3:getWAEsPerLocation"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsPerLocationResponse">
+		<wsdl:part name="parameters" element="ns3:getWAEsPerLocationResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesRequest">
+		<wsdl:part name="parameters" element="ns3:getDevices"/>
+	</wsdl:message>
+	<wsdl:message name="getDevicesResponse">
+		<wsdl:part name="parameters" element="ns3:getDevicesResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getAPIVersionRequest"/>
+	<wsdl:message name="getAPIVersionResponse">
+		<wsdl:part name="parameters" element="ns3:getAPIVersionResponse"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsInGroupRequest">
+		<wsdl:part name="parameters" element="ns3:getWAEsInGroup"/>
+	</wsdl:message>
+	<wsdl:message name="getWAEsInGroupResponse">
+		<wsdl:part name="parameters" element="ns3:getWAEsInGroupResponse"/>
+	</wsdl:message>
+	<wsdl:portType name="DeviceConfPortType">
+		<wsdl:operation name="getDevice">
+			<wsdl:input message="ns3:getDeviceRequest" wsaw:Action="urn:getDevice"/>
+			<wsdl:output message="ns3:getDeviceResponse" wsaw:Action="urn:getDeviceResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDeviceRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceByName">
+			<wsdl:input message="ns3:getDeviceByNameRequest" wsaw:Action="urn:getDeviceByName"/>
+			<wsdl:output message="ns3:getDeviceByNameResponse" wsaw:Action="urn:getDeviceByNameResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDeviceByNameRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWANInfo">
+			<wsdl:input message="ns3:getWANInfoRequest" wsaw:Action="urn:getWANInfo"/>
+			<wsdl:output message="ns3:getWANInfoResponse" wsaw:Action="urn:getWANInfoResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWANInfoRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceGroups">
+			<wsdl:input message="ns3:getDeviceGroupsRequest" wsaw:Action="urn:getDeviceGroups"/>
+			<wsdl:output message="ns3:getDeviceGroupsResponse" wsaw:Action="urn:getDeviceGroupsResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDeviceGroupsRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getCMByName">
+			<wsdl:input message="ns3:getCMByNameRequest" wsaw:Action="urn:getCMByName"/>
+			<wsdl:output message="ns3:getCMByNameResponse" wsaw:Action="urn:getCMByNameResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getCMByNameRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroupByName">
+			<wsdl:input message="ns3:getDevicesInGroupByNameRequest" wsaw:Action="urn:getDevicesInGroupByName"/>
+			<wsdl:output message="ns3:getDevicesInGroupByNameResponse" wsaw:Action="urn:getDevicesInGroupByNameResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDevicesInGroupByNameRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesPerLocation">
+			<wsdl:input message="ns3:getDevicesPerLocationRequest" wsaw:Action="urn:getDevicesPerLocation"/>
+			<wsdl:output message="ns3:getDevicesPerLocationResponse" wsaw:Action="urn:getDevicesPerLocationResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDevicesPerLocationRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEByName">
+			<wsdl:input message="ns3:getWAEByNameRequest" wsaw:Action="urn:getWAEByName"/>
+			<wsdl:output message="ns3:getWAEByNameResponse" wsaw:Action="urn:getWAEByNameResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWAEByNameRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEs">
+			<wsdl:input message="ns3:getWAEsRequest" wsaw:Action="urn:getWAEs"/>
+			<wsdl:output message="ns3:getWAEsResponse" wsaw:Action="urn:getWAEsResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWAEsRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getLocations">
+			<wsdl:input message="ns3:getLocationsRequest" wsaw:Action="urn:getLocations"/>
+			<wsdl:output message="ns3:getLocationsResponse" wsaw:Action="urn:getLocationsResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getLocationsRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWAE">
+			<wsdl:input message="ns3:getWAERequest" wsaw:Action="urn:getWAE"/>
+			<wsdl:output message="ns3:getWAEResponse" wsaw:Action="urn:getWAEResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWAERemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroup">
+			<wsdl:input message="ns3:getDevicesInGroupRequest" wsaw:Action="urn:getDevicesInGroup"/>
+			<wsdl:output message="ns3:getDevicesInGroupResponse" wsaw:Action="urn:getDevicesInGroupResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDevicesInGroupRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroupByName">
+			<wsdl:input message="ns3:getWAEsInGroupByNameRequest" wsaw:Action="urn:getWAEsInGroupByName"/>
+			<wsdl:output message="ns3:getWAEsInGroupByNameResponse" wsaw:Action="urn:getWAEsInGroupByNameResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWAEsInGroupByNameRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getCM">
+			<wsdl:input message="ns3:getCMRequest" wsaw:Action="urn:getCM"/>
+			<wsdl:output message="ns3:getCMResponse" wsaw:Action="urn:getCMResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getCMRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsPerLocation">
+			<wsdl:input message="ns3:getWAEsPerLocationRequest" wsaw:Action="urn:getWAEsPerLocation"/>
+			<wsdl:output message="ns3:getWAEsPerLocationResponse" wsaw:Action="urn:getWAEsPerLocationResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWAEsPerLocationRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getDevices">
+			<wsdl:input message="ns3:getDevicesRequest" wsaw:Action="urn:getDevices"/>
+			<wsdl:output message="ns3:getDevicesResponse" wsaw:Action="urn:getDevicesResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getDevicesRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getAPIVersion">
+			<wsdl:input message="ns3:getAPIVersionRequest" wsaw:Action="urn:getAPIVersion"/>
+			<wsdl:output message="ns3:getAPIVersionResponse" wsaw:Action="urn:getAPIVersionResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getAPIVersionRemoteException"/>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroup">
+			<wsdl:input message="ns3:getWAEsInGroupRequest" wsaw:Action="urn:getWAEsInGroup"/>
+			<wsdl:output message="ns3:getWAEsInGroupResponse" wsaw:Action="urn:getWAEsInGroupResponse"/>
+			<wsdl:fault message="ns3:RemoteException" name="RemoteException" wsaw:Action="urn:getWAEsInGroupRemoteException"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="DeviceConfSOAP11Binding" type="ns3:DeviceConfPortType">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+		<wsdl:operation name="getDevice">
+			<soap:operation soapAction="urn:getDevice" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceByName">
+			<soap:operation soapAction="urn:getDeviceByName" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWANInfo">
+			<soap:operation soapAction="urn:getWANInfo" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceGroups">
+			<soap:operation soapAction="urn:getDeviceGroups" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getCMByName">
+			<soap:operation soapAction="urn:getCMByName" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroupByName">
+			<soap:operation soapAction="urn:getDevicesInGroupByName" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesPerLocation">
+			<soap:operation soapAction="urn:getDevicesPerLocation" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEByName">
+			<soap:operation soapAction="urn:getWAEByName" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEs">
+			<soap:operation soapAction="urn:getWAEs" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getLocations">
+			<soap:operation soapAction="urn:getLocations" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAE">
+			<soap:operation soapAction="urn:getWAE" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroup">
+			<soap:operation soapAction="urn:getDevicesInGroup" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroupByName">
+			<soap:operation soapAction="urn:getWAEsInGroupByName" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getCM">
+			<soap:operation soapAction="urn:getCM" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsPerLocation">
+			<soap:operation soapAction="urn:getWAEsPerLocation" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevices">
+			<soap:operation soapAction="urn:getDevices" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getAPIVersion">
+			<soap:operation soapAction="urn:getAPIVersion" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroup">
+			<soap:operation soapAction="urn:getWAEsInGroup" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:binding name="DeviceConfSOAP12Binding" type="ns3:DeviceConfPortType">
+		<soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+		<wsdl:operation name="getDevice">
+			<soap12:operation soapAction="urn:getDevice" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceByName">
+			<soap12:operation soapAction="urn:getDeviceByName" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWANInfo">
+			<soap12:operation soapAction="urn:getWANInfo" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceGroups">
+			<soap12:operation soapAction="urn:getDeviceGroups" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getCMByName">
+			<soap12:operation soapAction="urn:getCMByName" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroupByName">
+			<soap12:operation soapAction="urn:getDevicesInGroupByName" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesPerLocation">
+			<soap12:operation soapAction="urn:getDevicesPerLocation" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEByName">
+			<soap12:operation soapAction="urn:getWAEByName" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEs">
+			<soap12:operation soapAction="urn:getWAEs" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getLocations">
+			<soap12:operation soapAction="urn:getLocations" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAE">
+			<soap12:operation soapAction="urn:getWAE" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroup">
+			<soap12:operation soapAction="urn:getDevicesInGroup" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroupByName">
+			<soap12:operation soapAction="urn:getWAEsInGroupByName" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getCM">
+			<soap12:operation soapAction="urn:getCM" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsPerLocation">
+			<soap12:operation soapAction="urn:getWAEsPerLocation" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getDevices">
+			<soap12:operation soapAction="urn:getDevices" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getAPIVersion">
+			<soap12:operation soapAction="urn:getAPIVersion" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroup">
+			<soap12:operation soapAction="urn:getWAEsInGroup" style="document"/>
+			<wsdl:input>
+				<soap12:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+			<wsdl:fault name="RemoteException">
+				<soap12:fault use="literal" name="RemoteException"/>
+			</wsdl:fault>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:binding name="DeviceConfHttpBinding" type="ns3:DeviceConfPortType">
+		<http:binding verb="POST"/>
+		<wsdl:operation name="getDevice">
+			<http:operation location="DeviceConf/getDevice"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDevice"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDevice"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceByName">
+			<http:operation location="DeviceConf/getDeviceByName"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDeviceByName"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDeviceByName"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWANInfo">
+			<http:operation location="DeviceConf/getWANInfo"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWANInfo"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWANInfo"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDeviceGroups">
+			<http:operation location="DeviceConf/getDeviceGroups"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDeviceGroups"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDeviceGroups"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getCMByName">
+			<http:operation location="DeviceConf/getCMByName"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getCMByName"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getCMByName"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroupByName">
+			<http:operation location="DeviceConf/getDevicesInGroupByName"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDevicesInGroupByName"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDevicesInGroupByName"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesPerLocation">
+			<http:operation location="DeviceConf/getDevicesPerLocation"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDevicesPerLocation"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDevicesPerLocation"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEByName">
+			<http:operation location="DeviceConf/getWAEByName"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWAEByName"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWAEByName"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEs">
+			<http:operation location="DeviceConf/getWAEs"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWAEs"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWAEs"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getLocations">
+			<http:operation location="DeviceConf/getLocations"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getLocations"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getLocations"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWAE">
+			<http:operation location="DeviceConf/getWAE"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWAE"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWAE"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDevicesInGroup">
+			<http:operation location="DeviceConf/getDevicesInGroup"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDevicesInGroup"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDevicesInGroup"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroupByName">
+			<http:operation location="DeviceConf/getWAEsInGroupByName"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWAEsInGroupByName"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWAEsInGroupByName"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getCM">
+			<http:operation location="DeviceConf/getCM"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getCM"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getCM"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsPerLocation">
+			<http:operation location="DeviceConf/getWAEsPerLocation"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWAEsPerLocation"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWAEsPerLocation"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getDevices">
+			<http:operation location="DeviceConf/getDevices"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getDevices"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getDevices"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getAPIVersion">
+			<http:operation location="DeviceConf/getAPIVersion"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getAPIVersion"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getAPIVersion"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="getWAEsInGroup">
+			<http:operation location="DeviceConf/getWAEsInGroup"/>
+			<wsdl:input>
+				<mime:content type="text/xml" part="getWAEsInGroup"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:content type="text/xml" part="getWAEsInGroup"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="DeviceConf">
+		<wsdl:port name="DeviceConfSOAP11port_https" binding="ns3:DeviceConfSOAP11Binding">
+			<soap:address location="https://127.0.0.1:18443/ws/DeviceConf"/>
+		</wsdl:port>
+		<wsdl:port name="DeviceConfSOAP11port_http1" binding="ns3:DeviceConfSOAP11Binding">
+			<soap:address location="http://127.0.0.1:8080/ws/DeviceConf"/>
+		</wsdl:port>
+		<wsdl:port name="DeviceConfSOAP12port_https" binding="ns3:DeviceConfSOAP12Binding">
+			<soap12:address location="https://127.0.0.1:18443/ws/DeviceConf"/>
+		</wsdl:port>
+		<wsdl:port name="DeviceConfSOAP12port_http1" binding="ns3:DeviceConfSOAP12Binding">
+			<soap12:address location="http://127.0.0.1:8080/ws/DeviceConf"/>
+		</wsdl:port>
+		<wsdl:port name="DeviceConfHttpport" binding="ns3:DeviceConfHttpBinding">
+			<http:address location="https://127.0.0.1:18443/ws/DeviceConf"/>
+		</wsdl:port>
+		<wsdl:port name="DeviceConfHttpport1" binding="ns3:DeviceConfHttpBinding">
+			<http:address location="http://127.0.0.1:8080/ws/DeviceConf"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

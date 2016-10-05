@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/client
+END
+CiscoWAASDiscoverer.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/client/CiscoWAASDiscoverer.class
+END
+DeviceConfigurationClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/client/DeviceConfigurationClient.class
+END
+WAEDiscoverer.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/client/WAEDiscoverer.class
+END
+FileUploadServiceClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/client/FileUploadServiceClient.class
+END

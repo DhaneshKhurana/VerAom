@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc
+END
+TrafficStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/TrafficStatsStub.java
+END
+AppNavStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/AppNavStatsStub.java
+END
+DeviceConfStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/DeviceConfStub.java
+END
+ICAStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/ICAStatsStub.java
+END
+RemoteExceptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/RemoteExceptionException.java
+END
+HttpStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/HttpStatsStub.java
+END
+SmbStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/SmbStatsStub.java
+END
+HttpsStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/HttpsStatsStub.java
+END
+MapiStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/MapiStatsStub.java
+END
+CIFSStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/CIFSStatsStub.java
+END
+DeviceStatusStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/DeviceStatusStub.java
+END
+FileUploadWSIServiceStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/FileUploadWSIServiceStub.java
+END
+NfsStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/NfsStatsStub.java
+END
+VideoStatsStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/VideoStatsStub.java
+END
+AlarmStatusStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/cisco/waas/wsc/AlarmStatusStub.java
+END

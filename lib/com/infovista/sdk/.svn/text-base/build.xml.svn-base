@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="../../../../../../.." name="com/logikos/discovery/waas/sdk" default="all">
+
+	<property file="${product.properties}" />
+	<property name="build.dir" location="${product.dest.dir}" />
+	<property name="build.classes" value="${build.dir}/classes" />
+	<property name="build.lib" value="${build.dir}/lib" />
+	<property name="build.java" value="${build.dir}/java" />
+	<property name="src.dir" value="${product.src.dir}" />
+
+	<path id="axis2.class.path">
+		<pathelement path="${build.classes}"/>
+		<fileset dir="${product.externallib.dir}/axis2/1.4.1/lib">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="prepare">
+		<tstamp>
+			<format property="module.date" pattern="yyyy.MM.dd G 'at' hh:mm:ss:SSS " locale="en" />
+		</tstamp>
+		<echo message="${module.date} entering ${ant.project.name}" />
+		<mkdir dir="${build.java}/waas"/>
+		<mkdir dir="${build.java}/waas/DeviceConf"/>
+		<mkdir dir="${build.java}/waas/TrafficStats"/>
+		<mkdir dir="${build.classes}/waas"/>
+		<mkdir dir="${build.classes}/waas/DeviceConf"/>
+		<mkdir dir="${build.classes}/waas/TrafficStats"/>
+		<mkdir dir="${build.classes}/waas/CIFSStats"/>
+		<mkdir dir="${build.classes}/waas/HttpStats"/>
+		<mkdir dir="${build.classes}/waas/MapiStats"/>
+		<mkdir dir="${build.classes}/waas/NfsStats"/>
+		<mkdir dir="${build.classes}/waas/SSLStats"/>
+		<mkdir dir="${build.classes}/waas/VideoStats"/>
+		<mkdir dir="${build.classes}/waas/DeviceStatus"/>
+		<taskdef name="java2WSDL" classname="org.apache.axis2.tool.ant.AntCodegenTask">
+			<classpath refid="axis2.class.path"/>
+		</taskdef>
+	</target>
+
+	<target name="compile" depends="prepare">
+		<!-- compile binding -->
+		<echo message="Java2WSDL ..." />
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/DeviceConf/DeviceConf.xml" output="${build.java}/waas/DeviceConf"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/TrafficStats/TrafficStats.xml" output="${build.java}/waas/TrafficStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/CIFSStats/CIFSStats.xml" output="${build.java}/waas/CIFSStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/HttpStats/HttpStats.xml" output="${build.java}/waas/HttpStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/MapiStats/MapiStats.xml" output="${build.java}/waas/MapiStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+		
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/NfsStats/NfsStats.xml" output="${build.java}/waas/NfsStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/SSLStats/SSLStats.xml" output="${build.java}/waas/SSLStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/VideoStats/VideoStats.xml" output="${build.java}/waas/VideoStats"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<java2WSDL wsdlFileName="${src.dir}/${ant.project.name}/wsdl/DeviceStatus/DeviceStatus.xml" output="${build.java}/waas/DeviceStatus"
+			packageName="com.logikos.discovery.waas.sdk" databindingName="adb" syncOnly="true"/> 
+
+		<!-- compile WAAS Stub -->
+		<echo message="Compiling waas stub ..." />
+		<javac srcdir="${build.java}/waas/DeviceConf/src" destdir="${build.classes}/waas/DeviceConf" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/TrafficStats/src" destdir="${build.classes}/waas/TrafficStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/CIFSStats/src" destdir="${build.classes}/waas/CIFSStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/HttpStats/src" destdir="${build.classes}/waas/HttpStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/MapiStats/src" destdir="${build.classes}/waas/MapiStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/NfsStats/src" destdir="${build.classes}/waas/NfsStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/SSLStats/src" destdir="${build.classes}/waas/SSLStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/VideoStats/src" destdir="${build.classes}/waas/VideoStats" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+		<javac srcdir="${build.java}/waas/DeviceStatus/src" destdir="${build.classes}/waas/DeviceStatus" debug="${debug.flag}" deprecation="on" source="1.5" target="${j2se.target}">
+			<classpath refid="axis2.class.path"/>
+		</javac>
+	</target>
+	
+	<target name="make.jar">
+		<!-- make the jar -->
+		<jar destfile="${build.lib}/WAAS-DeviceConf.jar">
+			<fileset dir="${build.classes}/waas/DeviceConf">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-TrafficStats.jar">
+			<fileset dir="${build.classes}/waas/TrafficStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-CIFSStats.jar">
+			<fileset dir="${build.classes}/waas/CIFSStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-HttpStats.jar">
+			<fileset dir="${build.classes}/waas/HttpStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-MapiStats.jar">
+			<fileset dir="${build.classes}/waas/MapiStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-NfsStats.jar">
+			<fileset dir="${build.classes}/waas/NfsStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-SSLStats.jar">
+			<fileset dir="${build.classes}/waas/SSLStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-VideoStats.jar">
+			<fileset dir="${build.classes}/waas/VideoStats">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+		<jar destfile="${build.lib}/WAAS-DeviceStatus.jar">
+			<fileset dir="${build.classes}/waas/DeviceStatus">
+				<include name="**/*" />
+			</fileset>
+		</jar>
+	</target>
+	
+	<target name="all" depends="prepare, compile, make.jar"/>
+	<target name="all_clean" depends="clean, all"/>
+	
+	<target name="clean">
+        <delete dir="${build.dir}" />
+	</target>
+	
+</project>

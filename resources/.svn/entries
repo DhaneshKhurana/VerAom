@@ -1,0 +1,34 @@
+10
+
+dir
+70
+http://snowmass/svn/tools/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/resources
+http://snowmass/svn/tools
+
+
+
+2015-12-11T07:41:01.411682Z
+70
+sumit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f7e2191-2049-a044-970e-f7e56b7e6b40
+
+scripts
+dir
+
+wsdls
+dir
+

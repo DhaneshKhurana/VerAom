@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/stub/trafficStats
+END
+TrafficStatResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/stub/trafficStats/TrafficStatResult.java
+END
+TrafficStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tools/!svn/ver/67/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/stub/trafficStats/TrafficStub.java
+END
+AllTrafficStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tools/!svn/ver/67/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/stub/trafficStats/AllTrafficStats.java
+END
+AppTrafficStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tools/!svn/ver/67/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/stub/trafficStats/AppTrafficStats.java
+END

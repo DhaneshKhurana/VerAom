@@ -1,0 +1,29 @@
+#Device-IP;Alarm_Id;alarmName;alarmSeverity;deviceStatus;alarmdesciprion
+56.19.178.39;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.35.97.114;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.46.202.9;445048;raid_degraded;Critical;null;raid-disk is Critical state
+56.46.202.9;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.129.131.7;445048;raid_degraded;Critical;null;raid-disk is Critical state
+56.145.47.88;445006;eth_not_fduplex;Major;null;The interface GigabitEthernet 1/0,configured for auto negotiation,is not in full-duplex mode.
+56.145.47.88;445044;eth_speed;Minor;null;The interface GigabitEthernet 1/0,configured for auto negotiation,is not negotiated at its full capacity.
+56.152.162.5;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.173.78.10;445044;eth_speed;Minor;null;The interface GigabitEthernet 1/0,configured for auto negotiation,is not negotiated at its full capacity.
+56.183.46.11;445048;raid_degraded;Critical;null;raid-disk is Critical state
+56.183.46.11;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.183.55.9;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.183.169.25;445048;raid_degraded;Critical;null;raid-disk is Critical (Bad Stripes) state
+56.183.169.25;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.195.144.23;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.207.245.8;445001;core_dump;Major;null;User space Core files were detected
+56.207.245.8;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.207.245.8;445048;raid_degraded;Critical;null;raid-disk is Critical state
+56.207.245.9;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.207.245.11;445001;core_dump;Major;null;User space Core files were detected
+56.237.67.6;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.237.67.7;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.237.67.8;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.237.67.8;445048;raid_degraded;Critical;null;raid-disk is Critical state
+56.237.67.8;705002;cms_offline_state;Critical;null;CMS status is offline.
+56.237.67.9;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.237.67.10;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.
+56.237.67.11;445043;ad_asymmetric_conns;Minor;null;Asymmetric connections count more than 1000.

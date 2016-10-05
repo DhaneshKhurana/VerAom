@@ -1,0 +1,782 @@
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - argumnets entered by user 
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - -h
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - 127.0.0.1
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - -u
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - dhanesh
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - -pwd
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - remaxys
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - -port
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - 8088
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - -proto
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - http
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - -dmh
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - 3
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - Properties set in property file :: 
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - waasConfDirectory ----> null
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - alarmURL ----> AlarmStatus
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - host ----> 127.0.0.1
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - http_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - startTime ----> 
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - directions ----> outbound
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - mode ----> mono
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - traffic_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - totalWaes ----> 0
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - maxHoursInRequest ----> 1
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - followlastRunMechanism ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - alarm_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - protocol ----> https
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - cifsURL ----> CIFSStats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - endTime ----> 
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - mapiURL ----> MapiStats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - aquisiotion_rate ----> custom
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - waesInOneRequest ----> 0
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - waasURL ----> ws
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - password ----> root
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - videoURL ----> VideoStats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - trafficURL ----> TrafficStats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - username ----> root
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - nfsURL ----> NfsStats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - deviceStatusURL ----> DeviceStatus
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - dataMaxHistory ----> 12
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - nThreads ----> 10
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - port ----> 8443       					
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - mapi_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - deviceConfURL ----> DeviceConf
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - output_folder ----> Output_Stats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - video_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - nfs_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - trafficType ----> passthrough
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - waas_timeout ----> 2000
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - httpURL ----> HttpStats
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - cifs_enabled ----> true
+11 Dec 15:06:35 INFO  [main                                    ] VDLinkLogger                - ----------
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - no. of thread are set to :: 10
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - Host ::127.0.0.1
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - password :: dhanesh
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - UserName :: remaxys
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - PORT :: 8088
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - PROTOCOL :: http
+11 Dec 15:06:35 DEBUG [main                                    ] VDLinkLogger                - Data max history has been chanegd to :: 3
+11 Dec 15:06:36 DEBUG [main                                    ] VDLinkLogger                - Wae Capability Map Initialized with 521 waes
+11 Dec 15:06:36 DEBUG [main                                    ] VDLinkLogger                - Wae Name-Ip Map Initialized with 521 waes
+11 Dec 15:06:36 DEBUG [main                                    ] VDLinkLogger                - wae name ip map :: 521 :: 521
+11 Dec 15:06:36 INFO  [main                                    ] VDLinkLogger                - No. of MONITORED_APPs Found :: 22
+11 Dec 15:06:36 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/DeviceConf to initialize Device Stub
+11 Dec 15:06:36 DEBUG [main                                    ] VDLinkLogger                - initializing device Stub 
+11 Dec 15:06:37 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:37 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:37 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:37 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - last run mechanism will be follwed with time duration as :: from time :: 2015/12/11/, 11:0:0:0 to time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Finally all the properties set are as follows :: 
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 127.0.0.1
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - dhanesh
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - remaxys
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 8088
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 2000
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - null
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/DeviceConf
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/DeviceConf
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/CIFSStats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/HttpStats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/MapiStats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/NfsStats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/VideoStats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/TrafficStats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - http://127.0.0.1:8088/ws/AlarmStatus
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 2015/12/11/, 11:0:0:0
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 2015/12/11/, 14:0:0:0
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - custom
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Output_Stats
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - following last run mechanism::true
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 0
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - 0
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - JVM Information : 
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Available Processors to JVM :: 8
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Maximun memory available to JVM :: 3798990848
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Heap Size of JVM 255852544
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Free memory available to the JVM :: 216363384
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: cifs
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: nfs
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: mapi
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: http
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: traffic
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: video
+11 Dec 15:06:37 DEBUG [main                                    ] VDLinkLogger                - Service registered :: alarm
+11 Dec 15:06:39 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/CIFSStats to initialize cifs Stub
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/NfsStats to initialize nfs Stub
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/MapiStats to initialize mapi Stub
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/HttpStats to initialize http Stub
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/VideoStats to initialize video Stub
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 ERROR [main                                    ] VDLinkLogger                - Pinging url :: http://127.0.0.1:8088/ws/AlarmStatus to initialize alarm Stub
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - Deploying module: rampart-1.6.2 - file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/modules/rampart-1.6.2.mar
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\services\services.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/services/services.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\transports\transports.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/transports/transports.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 INFO  [main                                    ] DeploymentEngine            - C:\workSpaces\Verizon\VerizonVDLink\bin\com\infovista\sdk\rampart\pojo\pojo.list (The system cannot find the path specified) -  as per axis2.repository.url, the URL is file:/C:/workSpaces/Verizon/VerizonVDLink/bin/com/infovista/sdk/rampart/pojo/pojo.list that will be used relative to C:\workSpaces\Verizon\VerizonVDLink\.
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Time duration for which stats will be collected :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - IN getNextSubTimeSlot : sub time slot recieved is :: null
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - IN TimeSlot : sub time slot retruning is :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Processing for sub time-slot	:: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Submitting Tasks for Stats Processing
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Total no. of tasks submitted :: 8
+11 Dec 15:06:39 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_CIFS from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_HTTP from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_NFS from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_ALL_TRAFFIC from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_VIDEO_STREAMING from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_APP_TRAFFIC from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_MAPI from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - putting value in timstampCache :: WAAS_APP_TRAFFIC :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - putting value in timstampCache :: WAAS_NFS :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - putting value in timstampCache :: WAAS_ALL_TRAFFIC :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - putting value in timstampCache :: WAAS_HTTP :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - putting value in timstampCache :: ALARM_Services :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - servicetimstampcache loaded from memory with size :: 5
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - TimeStamp Cache updated with values :: 
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - WAAS_NFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - TimeStamp is NOT valid for service :: WAAS_NFS becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - TimeStamp is NOT valid for service :: WAAS_HTTP becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Data has been collected for timeStamp :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0 for service WAAS_HTTP . So exiting
+11 Dec 15:06:39 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - WAAS_MAPI not found in timstamp cache
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - TimeStamp is NOT valid for service :: WAAS_APP_TRAFFIC becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - Data has been collected for timeStamp :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0 for service WAAS_APP_TRAFFIC . So exiting
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - Data has been collected for timeStamp :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0 for service WAAS_NFS . So exiting
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - WAAS_VIDEO_STREAMING not found in timstamp cache
+11 Dec 15:06:39 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - WAAS_CIFS not found in timstamp cache
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - TimeStamp is NOT valid for service :: WAAS_ALL_TRAFFIC becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449815400000
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Data has been collected for timeStamp :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0 for service WAAS_ALL_TRAFFIC . So exiting
+11 Dec 15:06:39 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - Processing CIFS stats
+11 Dec 15:06:39 INFO  [pool-1-thread-7                         ] VDLinkLogger                - Free Memory available to the JVM before Video 230259928
+11 Dec 15:06:39 INFO  [pool-1-thread-3                         ] VDLinkLogger                - Free Memory available to the JVM before Mapi 230259928
+11 Dec 15:06:39 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - collecting waes for WAAS_MAPI
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - Processing VIDEO stats for Waes
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - No. of properties to be collected for Video-Streaming :: 8
+11 Dec 15:06:39 INFO  [pool-1-thread-1                         ] VDLinkLogger                - Free Memory available to the JVM before CIFS 230259928
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - collecting waes for WAAS_VIDEO_STREAMING
+11 Dec 15:06:39 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_MAPI are :: 0
+11 Dec 15:06:39 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_MAPI   is :: 0
+11 Dec 15:06:39 INFO  [pool-1-thread-3                         ] VDLinkLogger                - NO MAPI CAPABALE WAE FOUND!
+11 Dec 15:06:39 INFO  [pool-1-thread-3                         ] VDLinkLogger                - Free Memory available to the JVM after Mapi 230259928
+11 Dec 15:06:39 INFO  [pool-1-thread-1                         ] VDLinkLogger                - NO CIFS capable WAE found!
+11 Dec 15:06:39 INFO  [pool-1-thread-1                         ] VDLinkLogger                - Free Memory available to the JVM after CIFS 230259928
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_VIDEO_STREAMING are :: 0
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_VIDEO_STREAMING   is :: 0
+11 Dec 15:06:39 INFO  [pool-1-thread-7                         ] VDLinkLogger                - Free Memory available to the JVM after Videostats 230259928
+11 Dec 15:06:39 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - no previous stat file could be found for  :: WAAS_MAPI
+11 Dec 15:06:39 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - no previous stat file could be found for  :: WAAS_CIFS
+11 Dec 15:06:39 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - no previous stat file could be found for  :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:39 INFO  [pool-1-thread-1                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_CIFS.csv
+11 Dec 15:06:39 INFO  [pool-1-thread-3                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_MAPI.csv
+11 Dec 15:06:39 INFO  [pool-1-thread-7                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_Videos.csv
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_CIFS
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_CIFS
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 7
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Cache can not be updated as result is null
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 6
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_MAPI
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_MAPI
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 5
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Cache can not be updated as result is null
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 4
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Cache can not be updated as result is null
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 3
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Cache can not be updated as result is null
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 2
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 1
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Cache can not be updated as result is null
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - All processes for time-Slot :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0 completed
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - IN getNextSubTimeSlot : sub time slot recieved is :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 12:0:0:0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - IN getNextSubTimeSlot : sub time slot retruning is :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Processing for sub time-slot	:: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Submitting Tasks for Stats Processing
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Total no. of tasks submitted :: 8
+11 Dec 15:06:39 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_CIFS from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_NFS from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_APP_TRAFFIC from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_HTTP from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_HTTP becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_MAPI from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_MAPI becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 INFO  [pool-1-thread-8                         ] VDLinkLogger                - Free Memory available to the JVM before Mapi 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - collecting waes for WAAS_MAPI
+11 Dec 15:06:39 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_CIFS becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - Processing CIFS stats
+11 Dec 15:06:39 INFO  [pool-1-thread-9                         ] VDLinkLogger                - Free Memory available to the JVM before CIFS 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Free Memory available to the JVM before HTTP 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_APP_TRAFFIC becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_VIDEO_STREAMING from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_ALL_TRAFFIC from :: Start-Time :: 2015/12/11/, 11:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 to :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_NFS becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_ALL_TRAFFIC becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_VIDEO_STREAMING becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - collecting waes for traffic stats
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - collecting waes for WAAS_HTTP
+11 Dec 15:06:39 INFO  [pool-1-thread-6                         ] VDLinkLogger                - Free Memory available to the JVM before Video 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Processing VIDEO stats for Waes
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - No. of properties to be collected for Video-Streaming :: 8
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - collecting waes for WAAS_VIDEO_STREAMING
+11 Dec 15:06:39 INFO  [pool-1-thread-9                         ] VDLinkLogger                - NO CIFS capable WAE found!
+11 Dec 15:06:39 INFO  [pool-1-thread-9                         ] VDLinkLogger                - Free Memory available to the JVM after CIFS 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - collecting waes for traffic stats
+11 Dec 15:06:39 INFO  [pool-1-thread-10                        ] VDLinkLogger                - Free Memory available to the JVM before NFS 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - collecting waes for WAAS_NFS
+11 Dec 15:06:39 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - previous stat file found for  :: WAAS_CIFS . so data will be merged and written back sorted
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_TRAFFIC are :: 521
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_TRAFFIC   is :: 1
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - Processing App TRAFFIC stats for Monitored_APPS 
+11 Dec 15:06:39 INFO  [pool-1-thread-9                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_CIFS.csv with header :: #Device-IP;TimeStamp;diskCapacity;requestCount;cacheCount;Resourceutilization;hitRate;sessionCount
+11 Dec 15:06:39 INFO  [pool-1-thread-9                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_CIFS.csv
+11 Dec 15:06:39 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_MAPI are :: 0
+11 Dec 15:06:39 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_MAPI   is :: 0
+11 Dec 15:06:39 INFO  [pool-1-thread-8                         ] VDLinkLogger                - NO MAPI CAPABALE WAE FOUND!
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_HTTP are :: 514
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_HTTP   is :: 1
+11 Dec 15:06:39 INFO  [pool-1-thread-4                         ] VDLinkLogger                - Total HTTP tasks submitted :: 1
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - No. of properties to be calculated for HTTP service :: 12
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_HTTP becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Sending HttpConnStats request for HTTP stats
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_VIDEO_STREAMING are :: 0
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_VIDEO_STREAMING   is :: 0
+11 Dec 15:06:39 INFO  [pool-1-thread-6                         ] VDLinkLogger                - Free Memory available to the JVM after Videostats 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - previous stat file found for  :: WAAS_VIDEO_STREAMING . so data will be merged and written back sorted
+11 Dec 15:06:39 INFO  [pool-1-thread-6                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_Videos.csv with header :: #Device-IP;TimeStamp;acceleratedConnections;incomingBytesTotal;outgoingBytesTotal;errorConnections;recievedConnections;unAcceleratedConnections
+11 Dec 15:06:39 INFO  [pool-1-thread-6                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_Videos.csv
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_CIFS
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_CIFS
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_CIFS changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_NFS are :: 514
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_NFS   is :: 1
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - Total no .of NFS Tasks submitted :: 1
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - No. of properties to be collected for NFS Stats :: 14
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_NFS becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449819000000
+11 Dec 15:06:39 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - Sending NfsReqTypeStats request for NFS stats
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - no. of Monitopred apps in App traffic stats :: 22
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_TRAFFIC are :: 521
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_TRAFFIC   is :: 1
+11 Dec 15:06:39 INFO  [pool-1-thread-8                         ] VDLinkLogger                - Free Memory available to the JVM after Mapi 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - Processing All TRAFFIC stats for Monitored_APPS 
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - no. of Monitopred apps in All traffic stats :: 22
+11 Dec 15:06:39 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - previous stat file found for  :: WAAS_MAPI . so data will be merged and written back sorted
+11 Dec 15:06:39 INFO  [pool-1-thread-8                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_MAPI.csv with header :: #Device-IP;TimeStamp;localResp;remoteResp;avgLocalResp;avgRemoteResp;avgReadAhead;avgReadStream;client2k;client2k3;client2k7;higherThan2kConnections;lowerThan2kConnections;secureConnections;sessionCount
+11 Dec 15:06:39 INFO  [pool-1-thread-8                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_MAPI.csv
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:39 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:39 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 7
+11 Dec 15:06:39 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - Sending request for retrieveAppTrafficStats with free memory avaialble :: 228917432
+11 Dec 15:06:39 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - Sending request for Traffic stats with retrieveTrafficStats function with free memory avaialble :: 228917432
+11 Dec 15:06:40 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NfsReqTypeStats response for NFS stats retrieved
+11 Dec 15:06:40 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  510
+11 Dec 15:06:40 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - HttpConnStats response retrieved for HTTP stats
+11 Dec 15:06:40 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - NO. of responses Obtained for HttpConnStats waes  511
+11 Dec 15:06:40 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - Sending NfsRespTypeStats request for NFS stats
+11 Dec 15:06:40 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Sending HttpTotalConnCount request for HTTP stats
+11 Dec 15:06:41 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - RetrieveTrafficStatsResponse returned and free memory left is :: 189104200
+11 Dec 15:06:41 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - NO. of traffic objects retrieved :: 769
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - HttpTotalConnCount response retrieved for HTTP stats
+11 Dec 15:06:41 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - All Traffic stats tasks left ::  0
+11 Dec 15:06:41 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - no previous stat file could be found for  :: WAAS_ALL_TRAFFIC
+11 Dec 15:06:41 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NfsRespTypeStats response for NFS stats retrieved
+11 Dec 15:06:41 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  511
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - NO. of responses Obtained for HttpTotalConnCount waes  511
+11 Dec 15:06:41 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - Sending NfsTypeStats request for NFS stats
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Sending HttpMaxConnReuseCount request for HTTP stats
+11 Dec 15:06:41 ERROR [pool-1-thread-4                         ] VDLinkLogger                - Error while retrieveing HttpMaxConnReuseCount for wae :: 0567894110-BRLNCA-ATT-WAAS
+org.apache.axis2.AxisFault: org.apache.axis2.databinding.ADBException: Unexpected subelement {http://service.stats.ws.waas.cisco.com}name
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430)
+	at com.cisco.waas.wsc.HttpStatsStub.fromOM(HttpStatsStub.java:1737)
+	at com.cisco.waas.wsc.HttpStatsStub.getMaxConnReuseCount(HttpStatsStub.java:591)
+	at com.infovista.sdk.stub.httpStats.HttpStub.getMaxConnReuseCount(HttpStub.java:470)
+	at com.infovista.sdk.stub.httpStats.HttpStub.requestHttpMaxConnReuseCount(HttpStub.java:267)
+	at com.infovista.sdk.stub.httpStats.HttpStub.retrieveStats(HttpStub.java:160)
+	at com.infovista.sdk.stub.httpStats.HttpStub.retrieveStats(HttpStub.java:145)
+	at com.infovista.statsRetriever.AbstractStatsProcessor.retrieveStatsForTimeSlot(AbstractStatsProcessor.java:79)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:37)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Exception: org.apache.axis2.databinding.ADBException: Unexpected subelement {http://service.stats.ws.waas.cisco.com}name
+	at com.cisco.waas.wsc.HttpStatsStub$GetMaxConnReuseCountResponse$Factory.parse(HttpStatsStub.java:4067)
+	at com.cisco.waas.wsc.HttpStatsStub.fromOM(HttpStatsStub.java:1679)
+	... 14 more
+Caused by: org.apache.axis2.databinding.ADBException: Unexpected subelement {http://service.stats.ws.waas.cisco.com}name
+	at com.cisco.waas.wsc.HttpStatsStub$GetMaxConnReuseCountResponse$Factory.parse(HttpStatsStub.java:4063)
+	... 15 more
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Sending HttpConnOptRate request for HTTP stats
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - HttpConnOptRate response retrieved for HTTP stats
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  512
+11 Dec 15:06:41 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NfsTypeStats response for NFS stats retrieved
+11 Dec 15:06:41 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  511
+11 Dec 15:06:41 INFO  [pool-1-thread-4                         ] VDLinkLogger                - Free Memory available to the JVM after Http 84903424
+11 Dec 15:06:41 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - no previous stat file could be found for  :: WAAS_HTTP
+11 Dec 15:06:41 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - Sending NfsSessionCount request for NFS stats
+11 Dec 15:06:42 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NfsSessionCount response for NFS stats retrieved
+11 Dec 15:06:42 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  511
+11 Dec 15:06:42 INFO  [pool-1-thread-10                        ] VDLinkLogger                - Free Memory available to the JVM after NFS 269977888
+11 Dec 15:06:42 DEBUG [pool-1-thread-10                        ] VDLinkLogger                - no previous stat file could be found for  :: WAAS_NFS
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_NFS
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_NFS
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_NFS changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 6
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_MAPI
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_MAPI
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_MAPI changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 5
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_HTTP
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_HTTP
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_HTTP changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:42 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:42 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 4
+11 Dec 15:06:43 ERROR [pool-1-thread-5                         ] VDLinkLogger                - Error while retrieveing App TrafficStats for wae Array
+org.apache.axis2.AxisFault: org.apache.axis2.databinding.ADBException: Unexpected subelement {Http://stats.ws.waas.cisco.com/xsd}passthroughoverloadout
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430)
+	at com.cisco.waas.wsc.TrafficStatsStub.fromOM(TrafficStatsStub.java:2686)
+	at com.cisco.waas.wsc.TrafficStatsStub.retrieveAppTrafficStats(TrafficStatsStub.java:1354)
+	at com.infovista.sdk.stub.trafficStats.TrafficStub.retrieveAppTrafficStatsResponse(TrafficStub.java:92)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.getAppTrafficStatsArray(AppTrafficStats.java:171)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.requestAppTrafficStats(AppTrafficStats.java:110)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.retrieveStats(AppTrafficStats.java:103)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.retrieveStats(AppTrafficStats.java:86)
+	at com.infovista.statsRetriever.AbstractStatsProcessor.retrieveStatsForTimeSlot(AbstractStatsProcessor.java:79)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:37)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Exception: org.apache.axis2.databinding.ADBException: Unexpected subelement {Http://stats.ws.waas.cisco.com/xsd}passthroughoverloadout
+	at com.cisco.waas.wsc.TrafficStatsStub$TrafficStats$Factory.parse(TrafficStatsStub.java:31028)
+	at com.cisco.waas.wsc.TrafficStatsStub$RetrieveAppTrafficStatsResponse$Factory.parse(TrafficStatsStub.java:15783)
+	at com.cisco.waas.wsc.TrafficStatsStub.fromOM(TrafficStatsStub.java:2583)
+	... 15 more
+Caused by: org.apache.axis2.databinding.ADBException: Unexpected subelement {Http://stats.ws.waas.cisco.com/xsd}passthroughoverloadout
+	at com.cisco.waas.wsc.TrafficStatsStub$TrafficStats$Factory.parse(TrafficStatsStub.java:31024)
+	... 17 more
+11 Dec 15:06:43 INFO  [pool-1-thread-5                         ] VDLinkLogger                - App TrafficStats array returned is null
+11 Dec 15:06:43 DEBUG [pool-1-thread-5                         ] VDLinkLogger                - App Traffic stats tasks left ::  0
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_APP_TRAFFIC
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_APP_TRAFFIC
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_APP_TRAFFIC changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449815400000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 3
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_ALL_TRAFFIC
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_ALL_TRAFFIC
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_ALL_TRAFFIC changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449815400000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 2
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_VIDEO_STREAMING changed from :: 1449815400000 to :: 1449819000000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 1
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - Cache can not be updated as result is null
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 0
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - All processes for time-Slot :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0 completed
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - IN getNextSubTimeSlot : sub time slot recieved is :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 13:0:0:0
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - IN getNextSubTimeSlot : sub time slot retruning is :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - Processing for sub time-slot	:: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - Submitting Tasks for Stats Processing
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - Total no. of tasks submitted :: 8
+11 Dec 15:06:43 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_CIFS from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_NFS from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_APP_TRAFFIC from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_APP_TRAFFIC becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - collecting waes for traffic stats
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_HTTP from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_MAPI from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_MAPI becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_CIFS becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - Processing CIFS stats
+11 Dec 15:06:43 INFO  [pool-1-thread-7                         ] VDLinkLogger                - Free Memory available to the JVM before CIFS 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_TRAFFIC are :: 521
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_TRAFFIC   is :: 1
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - Processing App TRAFFIC stats for Monitored_APPS 
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - no. of Monitopred apps in App traffic stats :: 22
+11 Dec 15:06:43 INFO  [pool-1-thread-3                         ] VDLinkLogger                - Free Memory available to the JVM before Mapi 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_HTTP becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - sub time-slot value changed for service :: ALARM_Services from :: Start-Time :: null end-Time :: null to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_VIDEO_STREAMING from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - sub time-slot value changed for service :: WAAS_ALL_TRAFFIC from :: Start-Time :: 2015/12/11/, 12:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 to :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_NFS becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 INFO  [pool-1-thread-1                         ] VDLinkLogger                - Free Memory available to the JVM before NFS 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - collecting waes for WAAS_NFS
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_ALL_TRAFFIC becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - collecting waes for traffic stats
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_TRAFFIC are :: 521
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_TRAFFIC   is :: 1
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - Processing All TRAFFIC stats for Monitored_APPS 
+11 Dec 15:06:43 INFO  [pool-1-thread-7                         ] VDLinkLogger                - NO CIFS capable WAE found!
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_VIDEO_STREAMING becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - TimeStamp is valid for service :: ALARM_Services becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Free Memory available to the JVM before HTTP 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - collecting waes for WAAS_MAPI
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - collecting waes for WAAS_HTTP
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_NFS are :: 514
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_NFS   is :: 1
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - Total no .of NFS Tasks submitted :: 1
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - No. of properties to be collected for NFS Stats :: 14
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_NFS becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - Sending NfsReqTypeStats request for NFS stats
+11 Dec 15:06:43 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_MAPI are :: 0
+11 Dec 15:06:43 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_MAPI   is :: 0
+11 Dec 15:06:43 INFO  [pool-1-thread-3                         ] VDLinkLogger                - NO MAPI CAPABALE WAE FOUND!
+11 Dec 15:06:43 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - TimeStamp is valid for service :: ALARM_Services becoz last-timstamp- stored :: 1449815400000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Sending request for alarm stats
+11 Dec 15:06:43 INFO  [pool-1-thread-2                         ] VDLinkLogger                - Free Memory available to the JVM before Video 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - Processing VIDEO stats for Waes
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - No. of properties to be collected for Video-Streaming :: 8
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - collecting waes for WAAS_VIDEO_STREAMING
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_VIDEO_STREAMING are :: 0
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_VIDEO_STREAMING   is :: 0
+11 Dec 15:06:43 INFO  [pool-1-thread-2                         ] VDLinkLogger                - Free Memory available to the JVM after Videostats 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-2                         ] VDLinkLogger                - previous stat file found for  :: WAAS_VIDEO_STREAMING . so data will be merged and written back sorted
+11 Dec 15:06:43 INFO  [pool-1-thread-2                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_Videos.csv with header :: #Device-IP;TimeStamp;acceleratedConnections;incomingBytesTotal;outgoingBytesTotal;errorConnections;recievedConnections;unAcceleratedConnections
+11 Dec 15:06:43 INFO  [pool-1-thread-2                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_Videos.csv
+11 Dec 15:06:43 INFO  [pool-1-thread-7                         ] VDLinkLogger                - Free Memory available to the JVM after CIFS 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-7                         ] VDLinkLogger                - previous stat file found for  :: WAAS_CIFS . so data will be merged and written back sorted
+11 Dec 15:06:43 INFO  [pool-1-thread-7                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_CIFS.csv with header :: #Device-IP;TimeStamp;diskCapacity;requestCount;cacheCount;Resourceutilization;hitRate;sessionCount
+11 Dec 15:06:43 INFO  [pool-1-thread-7                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_CIFS.csv
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - no. of Monitopred apps in All traffic stats :: 22
+11 Dec 15:06:43 INFO  [pool-1-thread-3                         ] VDLinkLogger                - Free Memory available to the JVM after Mapi 157091712
+11 Dec 15:06:43 DEBUG [pool-1-thread-3                         ] VDLinkLogger                - previous stat file found for  :: WAAS_MAPI . so data will be merged and written back sorted
+11 Dec 15:06:43 INFO  [pool-1-thread-3                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_MAPI.csv with header :: #Device-IP;TimeStamp;localResp;remoteResp;avgLocalResp;avgRemoteResp;avgReadAhead;avgReadStream;client2k;client2k3;client2k7;higherThan2kConnections;lowerThan2kConnections;secureConnections;sessionCount
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - no. of waes in an array  for app :: WAAS_HTTP are :: 514
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - no. of arrays in wae list for app :: WAAS_HTTP   is :: 1
+11 Dec 15:06:43 INFO  [pool-1-thread-6                         ] VDLinkLogger                - Total HTTP tasks submitted :: 1
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - No. of properties to be calculated for HTTP service :: 12
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - TimeStamp is valid for service :: WAAS_HTTP becoz last-timstamp- stored :: 1449819000000 current timestamp :: 1449822600000
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Sending HttpConnStats request for HTTP stats
+11 Dec 15:06:43 INFO  [pool-1-thread-3                         ] VDLinkLogger                - Map is empty for file :: Output_Stats/Wae_MAPI.csv
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_CIFS
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_CIFS
+11 Dec 15:06:43 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - Sending request for retrieveAppTrafficStats with free memory avaialble :: 157091712
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_CIFS changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:43 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:43 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 7
+11 Dec 15:06:43 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - Response for Alarm stats returned and free memory left is :: 153860632
+11 Dec 15:06:43 DEBUG [pool-1-thread-4                         ] VDLinkLogger                - no previous stat file could be found for  :: ALARM_Services
+11 Dec 15:06:43 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - Sending request for Traffic stats with retrieveTrafficStats function with free memory avaialble :: 152766992
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NfsReqTypeStats response for NFS stats retrieved
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  510
+11 Dec 15:06:43 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - Sending NfsRespTypeStats request for NFS stats
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - HttpConnStats response retrieved for HTTP stats
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - NO. of responses Obtained for HttpConnStats waes  511
+11 Dec 15:06:43 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Sending HttpTotalConnCount request for HTTP stats
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - HttpTotalConnCount response retrieved for HTTP stats
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - NO. of responses Obtained for HttpTotalConnCount waes  511
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Sending HttpMaxConnReuseCount request for HTTP stats
+11 Dec 15:06:44 ERROR [pool-1-thread-6                         ] VDLinkLogger                - Error while retrieveing HttpMaxConnReuseCount for wae :: 0567894110-BRLNCA-ATT-WAAS
+org.apache.axis2.AxisFault: org.apache.axis2.databinding.ADBException: Unexpected subelement {http://service.stats.ws.waas.cisco.com}name
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430)
+	at com.cisco.waas.wsc.HttpStatsStub.fromOM(HttpStatsStub.java:1737)
+	at com.cisco.waas.wsc.HttpStatsStub.getMaxConnReuseCount(HttpStatsStub.java:591)
+	at com.infovista.sdk.stub.httpStats.HttpStub.getMaxConnReuseCount(HttpStub.java:470)
+	at com.infovista.sdk.stub.httpStats.HttpStub.requestHttpMaxConnReuseCount(HttpStub.java:267)
+	at com.infovista.sdk.stub.httpStats.HttpStub.retrieveStats(HttpStub.java:160)
+	at com.infovista.sdk.stub.httpStats.HttpStub.retrieveStats(HttpStub.java:145)
+	at com.infovista.statsRetriever.AbstractStatsProcessor.retrieveStatsForTimeSlot(AbstractStatsProcessor.java:79)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:37)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Exception: org.apache.axis2.databinding.ADBException: Unexpected subelement {http://service.stats.ws.waas.cisco.com}name
+	at com.cisco.waas.wsc.HttpStatsStub$GetMaxConnReuseCountResponse$Factory.parse(HttpStatsStub.java:4067)
+	at com.cisco.waas.wsc.HttpStatsStub.fromOM(HttpStatsStub.java:1679)
+	... 14 more
+Caused by: org.apache.axis2.databinding.ADBException: Unexpected subelement {http://service.stats.ws.waas.cisco.com}name
+	at com.cisco.waas.wsc.HttpStatsStub$GetMaxConnReuseCountResponse$Factory.parse(HttpStatsStub.java:4063)
+	... 15 more
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - Sending HttpConnOptRate request for HTTP stats
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NfsRespTypeStats response for NFS stats retrieved
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  511
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - Sending NfsTypeStats request for NFS stats
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - HttpConnOptRate response retrieved for HTTP stats
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  512
+11 Dec 15:06:44 INFO  [pool-1-thread-6                         ] VDLinkLogger                - Free Memory available to the JVM after Http 437097688
+11 Dec 15:06:44 DEBUG [pool-1-thread-6                         ] VDLinkLogger                - previous stat file found for  :: WAAS_HTTP . so data will be merged and written back sorted
+11 Dec 15:06:44 INFO  [pool-1-thread-6                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_HTTP.csv with header :: #Device-IP;TimeStamp;reusedPeer;reused;idle;maxReused;pct_rtt_saved;totalHandoff;fastConnectionSetupCount;totalLanConnections;maxReusedConnections;percentConnectionTimeSaved
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NfsTypeStats response for NFS stats retrieved
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  511
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - Sending NfsSessionCount request for NFS stats
+11 Dec 15:06:44 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - RetrieveTrafficStatsResponse returned and free memory left is :: 370218200
+11 Dec 15:06:44 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - NO. of traffic objects retrieved :: 769
+11 Dec 15:06:44 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - All Traffic stats tasks left ::  0
+11 Dec 15:06:44 DEBUG [pool-1-thread-8                         ] VDLinkLogger                - previous stat file found for  :: WAAS_ALL_TRAFFIC . so data will be merged and written back sorted
+11 Dec 15:06:44 INFO  [pool-1-thread-8                         ] VDLinkLogger                - loading map for file Output_Stats/MonitoredAPP_All_Traffic.csv with header :: #Device-IP;TimeStamp;compressedIn;compressedOut;unCompressedIn;unCompressedOut;passthroughintermediatein;passthrough_other_out;passthroughoverloadin;passthroughoverloadout;passthroughpeerin;passthroughpeerout;passthroughpolicyin;passthroughpolicyout;frequency
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NfsSessionCount response for NFS stats retrieved
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - NO. of responses Obtained for Nfs waes  511
+11 Dec 15:06:44 INFO  [pool-1-thread-1                         ] VDLinkLogger                - Free Memory available to the JVM after NFS 357694360
+11 Dec 15:06:44 DEBUG [pool-1-thread-1                         ] VDLinkLogger                - previous stat file found for  :: WAAS_NFS . so data will be merged and written back sorted
+11 Dec 15:06:44 INFO  [pool-1-thread-1                         ] VDLinkLogger                - loading map for file Output_Stats/Wae_NFS.csv with header :: #Device-IP;TimeStamp;authflavor2Count;authflavor3Count;authflavorUnknown;avgLocalResp;avgRemoteResp;localResp;remoteResp;nfsv2Count;nfsv3Count;nfsv4Count;nfsUnknownCount;sessionCount
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_NFS
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_NFS
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_NFS changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 6
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_MAPI
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_MAPI
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_MAPI changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 5
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_HTTP
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_HTTP
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_HTTP changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449822600000
+11 Dec 15:06:44 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:44 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 4
+11 Dec 15:06:47 ERROR [pool-1-thread-9                         ] VDLinkLogger                - Error while retrieveing App TrafficStats for wae Array
+org.apache.axis2.AxisFault: org.apache.axis2.databinding.ADBException: Unexpected subelement {Http://stats.ws.waas.cisco.com/xsd}passthroughoverloadout
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430)
+	at com.cisco.waas.wsc.TrafficStatsStub.fromOM(TrafficStatsStub.java:2686)
+	at com.cisco.waas.wsc.TrafficStatsStub.retrieveAppTrafficStats(TrafficStatsStub.java:1354)
+	at com.infovista.sdk.stub.trafficStats.TrafficStub.retrieveAppTrafficStatsResponse(TrafficStub.java:92)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.getAppTrafficStatsArray(AppTrafficStats.java:171)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.requestAppTrafficStats(AppTrafficStats.java:110)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.retrieveStats(AppTrafficStats.java:103)
+	at com.infovista.sdk.stub.trafficStats.AppTrafficStats.retrieveStats(AppTrafficStats.java:86)
+	at com.infovista.statsRetriever.AbstractStatsProcessor.retrieveStatsForTimeSlot(AbstractStatsProcessor.java:79)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:37)
+	at com.infovista.statsRetriever.ParallelStatsRetriever.call(ParallelStatsRetriever.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Exception: org.apache.axis2.databinding.ADBException: Unexpected subelement {Http://stats.ws.waas.cisco.com/xsd}passthroughoverloadout
+	at com.cisco.waas.wsc.TrafficStatsStub$TrafficStats$Factory.parse(TrafficStatsStub.java:31028)
+	at com.cisco.waas.wsc.TrafficStatsStub$RetrieveAppTrafficStatsResponse$Factory.parse(TrafficStatsStub.java:15783)
+	at com.cisco.waas.wsc.TrafficStatsStub.fromOM(TrafficStatsStub.java:2583)
+	... 15 more
+Caused by: org.apache.axis2.databinding.ADBException: Unexpected subelement {Http://stats.ws.waas.cisco.com/xsd}passthroughoverloadout
+	at com.cisco.waas.wsc.TrafficStatsStub$TrafficStats$Factory.parse(TrafficStatsStub.java:31024)
+	... 17 more
+11 Dec 15:06:47 INFO  [pool-1-thread-9                         ] VDLinkLogger                - App TrafficStats array returned is null
+11 Dec 15:06:47 DEBUG [pool-1-thread-9                         ] VDLinkLogger                - App Traffic stats tasks left ::  0
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_APP_TRAFFIC
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_APP_TRAFFIC
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_APP_TRAFFIC changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449819000000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 3
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_ALL_TRAFFIC
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_ALL_TRAFFIC
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_ALL_TRAFFIC changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449819000000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 2
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - Process completed for :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: WAAS_VIDEO_STREAMING
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: WAAS_VIDEO_STREAMING changed from :: 1449819000000 to :: 1449822600000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449815400000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 1
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - Process completed for :: ALARM_Services
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - updating time-stamp cache for :: ALARM_Services
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - The timeStamp for service :: ALARM_Services changed from :: 1449815400000 to :: 1449822600000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - cache updated with values :: 
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - Service 	 Timestamp
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_APP_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_MAPI 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_VIDEO_STREAMING 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_NFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_CIFS 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_ALL_TRAFFIC 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - WAAS_HTTP 	 1449822600000
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - ALARM_Services 	 1449822600000
+11 Dec 15:06:47 INFO  [main                                    ] VDLinkLogger                - No. of tasks left :: 0
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - All processes for time-Slot :: Start-Time :: 2015/12/11/, 13:0:0:0 end-Time :: 2015/12/11/, 14:0:0:0 completed
+11 Dec 15:06:47 DEBUG [main                                    ] VDLinkLogger                - All processes for all time-slots completed

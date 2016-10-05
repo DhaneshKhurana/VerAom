@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error
+END
+WAASTransportError.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error/WAASTransportError.class
+END
+WAASError.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error/WAASError.class
+END
+WAASErrorManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error/WAASErrorManager.class
+END
+WAASPermissionDeniedError.class
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error/WAASPermissionDeniedError.class
+END
+WAASTimeoutError.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error/WAASTimeoutError.class
+END
+WAASAuthenticationError.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista/sdk/error/WAASAuthenticationError.class
+END

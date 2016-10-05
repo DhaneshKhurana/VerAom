@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error
+END
+WAASError.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error/WAASError.java
+END
+WAASTransportError.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error/WAASTransportError.java
+END
+WAASAuthenticationError.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error/WAASAuthenticationError.java
+END
+WAASTimeoutError.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error/WAASTimeoutError.java
+END
+WAASPermissionDeniedError.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error/WAASPermissionDeniedError.java
+END
+WAASErrorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/sdk/error/WAASErrorManager.java
+END

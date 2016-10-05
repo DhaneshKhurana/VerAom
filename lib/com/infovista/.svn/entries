@@ -1,0 +1,37 @@
+10
+
+dir
+66
+http://snowmass/svn/tools/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/com/infovista
+http://snowmass/svn/tools
+
+
+
+2015-07-29T11:36:50.447510Z
+7
+sumit
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5f7e2191-2049-a044-970e-f7e56b7e6b40
+
+client
+dir
+
+helper
+dir
+
+sdk
+dir
+

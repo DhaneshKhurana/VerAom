@@ -1,0 +1,1 @@
+java -classpath lib;lib/* com.infovista.client.DeviceConfigurationClient %1 %2 %3

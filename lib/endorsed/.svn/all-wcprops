@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/endorsed
+END
+jaxb-api-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/endorsed/jaxb-api-2.1.jar
+END
+geronimo-saaj_1.3_spec-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/endorsed/geronimo-saaj_1.3_spec-1.0.1.jar
+END
+geronimo-jaxws_2.2_spec-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/lib/endorsed/geronimo-jaxws_2.2_spec-1.0.jar
+END

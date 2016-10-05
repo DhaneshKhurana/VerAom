@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/statsRetriever
+END
+ParallelStatsRetriever.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/statsRetriever/ParallelStatsRetriever.java
+END
+StatsPoller.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tools/!svn/ver/69/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/statsRetriever/StatsPoller.java
+END
+WAEStatsProcessing.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/tools/!svn/ver/66/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/statsRetriever/WAEStatsProcessing.java
+END
+AbstractStatsProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/tools/!svn/ver/67/VerizonVDLink/branches/Verizon_v1.3/VerizonVDLink/src/com/infovista/statsRetriever/AbstractStatsProcessor.java
+END
